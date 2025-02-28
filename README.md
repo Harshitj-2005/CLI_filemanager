@@ -79,10 +79,6 @@ Content of myFile.txt: Hello, World!
 
 ---
 
-## ⚠️ Known Issues
-- The **Exit option is labeled as "5" instead of "6"** in the menu.
-- The **`parse.join` function is incorrect** in the delete operation (should be `path.join`).
-- The variable `r1` should be `rl` in `else` statement.
 
 🔧 **Fixes are in progress!**
 
