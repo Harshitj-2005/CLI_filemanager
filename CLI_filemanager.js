@@ -12,7 +12,7 @@ const showMenu = () =>{
     console.log("3: append file");
     console.log("4: rename file");
     console.log("5: delete file");
-    console.log("5: Exit");
+    console.log("6: Exit");
     rl.question("choose an option: ", handletask)
     
 }
@@ -78,7 +78,7 @@ const handletask=(option) =>{
     }
     else if (option === "5"){
         rl.question("Enter file name: ", (filename) => {
-            const filepath = parse.join(__dirname,filename)
+            const filepath = path.join(__dirname,filename)
             fs.unlink(`${filename}.txt`, err =>{
                 console.log("delete successfully");
             })
@@ -86,7 +86,7 @@ const handletask=(option) =>{
         });
     }
     else{
-        r1.close();
+        rl.close();
     }
 }
 showMenu();
