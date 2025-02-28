@@ -104,5 +104,5 @@ This project is licensed under the **MIT License**.
 
 ### 👨‍💻 Author
 Harshit Jain  
-GitHub: [Harshit Jain](https://github.com/Harshitj_2005)
+GitHub: [https://github.com/Harshitj_2005]
 
